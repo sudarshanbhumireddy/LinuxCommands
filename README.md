@@ -1,1 +1,1 @@
-# myfirst2
+# this repository contains all linux commands
