@@ -32,4 +32,8 @@ note- 0 means no permissions
 chmod 700 demo --> indicates 7 for root user , 0 for groups and 0 for other users
 umask 077 demo - similar to chmod 700 obtained by 777-700 and is used to change permissions during file creation and also for all files
 chown newuser demo --> change the owner of file demo to newuser
-  
+*****vimp******
+ssh allows you to control a remote machine all using commandline 
+to ssh any remote host machine
+
+ssh -i EC2pemkey.pem ec2-user@35.41.158.141(publicip)
