@@ -11,3 +11,20 @@ grep - used to search particular word in a text file | grep cat demo.txt --> hig
 grep -n --> returns matching strings along with line numbers and grep -v for non matching strings
 sort - sorts the results of a search alphabetically or numerically  | sort filename  | sort -r filename --> returns results in reverse order | sort -f --> case insensitive sort
 sort -n --> sorts in numerical order
+ls -l --> lists all files and folders in dir along with permissions and created time
+chown username filename --> changes owner and group of a file | chown root demo.txt --> changes owner of demo.txt to root
+chmod 777 demo.txt --> changes read, write and execute permissions to demo.txt file
+lsof - gives list of open files which are opened by a which processes
+lsof -u username -->     finds list of files which are opened by a specific user
+id --> displays userid , groupid and other data | id -u username --> displays userid of that particular user  | id username --> displays userid, groupid, groupname
+tar -cvf filename source-foldername  --> used to zip and unzip files   | tar -xvf tarfile
+cut --> displays selected columns | cut -cl-2 demo.txt --> c stands for column and it displays columns from 1 to 2 | cut -c1 demo.txt --> displays only one column
+sed --> replacesword with new word in file --> sed 's/oldword/newword/' filename(demo.xt)
+uniq filename --> used to filter dulicate lines in a file
+history --> views list of executed cmds
+dd if = /dev/hda of = /dev/hdb --> take backup of input file to output file
+free --> displays info about memory total, used, free(unused memory), shared (memory used by the temp folders ), buff (displays memory used by kernel buffers,cache(pagecache memory)
+free -b --> displays memory in bytes | free -k --> in kbs(default) | free -m --> mbs | free -g --> in gbs
+ssh master-ip|slave-ip --> get access to remote terminal
+******************* ssh-keygen -t rsa --> generate public/private rsa key pair --> t stands for type of encryption
+ 
