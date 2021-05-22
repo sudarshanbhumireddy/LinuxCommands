@@ -27,4 +27,16 @@ free --> displays info about memory total, used, free(unused memory), shared (me
 free -b --> displays memory in bytes | free -k --> in kbs(default) | free -m --> mbs | free -g --> in gbs
 ssh master-ip|slave-ip --> get access to remote terminal
 ******************* ssh-keygen -t rsa --> generate public/private rsa key pair --> t stands for type of encryption
+ifconfig- displays interfaces and ipaddress
+nslookup google.com --> queries domain name servers
+curl - transfer data(files) to or from server using any of the supported protocols --> curl options URL
+tr- converts data from lower to upper and viceversa --> cat demo.txt | tr "[a-z]" "[A-Z]"
+env - displays environment variables
+service iptables stop --> cmd used to disable firewall rules
+**********************sudo apt-get install nginx --> installs webserver
+df -->displays report of disk usage  | sudo df -h 
+sudo du -h -d 1 /var/ --> displays which files consuming more disk space
+
+
+
  
