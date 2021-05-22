@@ -1,0 +1,13 @@
+man- gives brief description about each command --> man ls --> gives syntax and use case of ls cmd
+echo - used to print anything on the terminal --> echo "Hello"
+whoami- displays current user
+su username- switches to the particular user | su --> switches to root user  | sudo bash -switches to root user
+sudo - run with administrative previliges | sudo adduser username - adds new user | sudo addpasswd username- adds password | sudo userdel username- deletes user
+sudo groupadd name | sudo groupdel name
+gedit demo.txt --> opens texteditor for demo.txt | vi demo.txt 
+cp -n source dest --> copies files but does not override if present | cp -r s d --> recursive copy entire hidden files also
+mv flag sourcefile destfile - mv -u s d --> moves only if destfile is different that source
+grep - used to search particular word in a text file | grep cat demo.txt --> highlights cat in output | grep -i word filename --> performs case insensitive search
+grep -n --> returns matching strings along with line numbers and grep -v for non matching strings
+sort - sorts the results of a search alphabetically or numerically  | sort filename  | sort -r filename --> returns results in reverse order | sort -f --> case insensitive sort
+sort -n --> sorts in numerical order
