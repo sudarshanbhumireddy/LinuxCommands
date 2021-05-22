@@ -19,7 +19,7 @@ ls -a --> lists all files | ls -t --> lists files based on time | ls a* --> list
 chmod - changes permissions for r root users, groups , other users | + means add permissions and - means remove permissions and = means assign permissions
 chmod u-r demo --> removes read operations on demofile for current user
 chmod u=w,o-x demo --> assigns write permission to root user and removes execute permission to other users '
-*** u stands for root user , w means write , r means read , x means execute , g means groups , o means other user, +means add permissions, - means remove permissions and = means assign permissions
+*** u stands for root user , w means write , r means read , x means execute , g means groups , o means all other users in your linux machine , +means add permissions, - means remove permissions and = means assign permissions
 permission weight
 Read        4
 write       2
