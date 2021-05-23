@@ -4,3 +4,20 @@ fork is a copy of repository. forking a repository allows you freely experiment 
 A commit is a snapshot of all the files in your project at a particular point of time.
 You can interact with people, repositories, and organizations on GitHub. See what others are working on and who they're connecting with from your personal dashboard.
 When you follow someone on GitHub, you'll get notifications on your personal dashboard about their activity. click follow on persons profile page to follow them.
+---------------------------------git commands---------------------------------------------
+git config -global user.name gituser
+git config -global user.email git@gmail.com
+git add demo.txt --> add demo.txt file from working area to staging area
+git commit -m 'some content changed to commit '
+git commit . --> commits all files
+git status --> shows current branch and committed files and uncommitted files
+git log --> shows committed files along with message
+git ls-files--> lists files in current repository
+git remote add origin githuburl --> add remote repository to local repository
+git remote -v --> displays remote repository
+git branch name --> creates branch
+git push branchname --> pushes branch to local repository
+git push origin master --> pushes commits to remote repository master branch
+git checkout branchname--> switches to other branch
+git merge testbranch --> merges testbranch to master
+
