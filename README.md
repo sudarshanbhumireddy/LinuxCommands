@@ -37,3 +37,50 @@ ssh allows you to control a remote machine all using commandline
 to ssh any remote host machine
 
 ssh -i EC2pemkey.pem ec2-user@35.41.158.141(publicip)
+grep searchword filename --> displays all lines containing that searchable word --> grep "Hello Hi" demo.txt --> grep unix * -->searches for unix in all files
+grep -v techno demo.txt --> displays all lines except that do not conatain techno | file * | grep -v text --> displays all files in current dir except text files
+fgrep --> similar to grep but we can provide multiple targets(searchable words) and it do not accept wildcards
+fgrep "UNIX
+>c++
+>java" students
+egrep--> similar to fgrep but with reg exp feature --> egrep "c|c++|unix" students 
+sort -o result file1 file2 file3 --> sort the contents of file1,2,3 and stores them in result file
+cut--> selects only partcular no of colunms and displays result --> cut -f 1,3 students --> displays 1st and 3rd columns
+cut --f 2-5 students --> displays columns from 2 to 5
+cat techno1 > techno2 --> sends contents of techno1 to techno2  | cat techno1 >> techno2 --> sends contents of techno1 to techno2 and allows user to data into techno2 file
+ls | wc -l --> connects op of ls to wc
+write --> writes something on someones terminal | write techno
+sending mail -->
+mail user@gmail.com user2@gmail.com
+subject : from linux terminal
+hello,how r u
+ctrl d
+mail techno2 techno3 teechno4 < myprog.c --> contents of myprog.c mailed to users
+find dirname -name file(files) -print --> find . -name file1 -print --> finds path of file1 in current dir --> find / -name file1 -print -->searches from root dir
+find -name "*data" -print --> finds all files end with data
+file * --> displays all files in current dir
+program to count no of users logged in to system --> who | wc -l
+program to read and display name --> read name      echo $name
+program to add two nos
+echo 'enter 2 numbers'
+read a b
+$c = $a+ $b
+echo $c
+if-then-else-fi statement syntax
+if condition
+then
+----------------
+---------------
+else
+----------
+----------
+fi
+
+
+
+
+
+
+
+
+
